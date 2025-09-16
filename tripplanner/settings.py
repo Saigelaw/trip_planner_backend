@@ -26,7 +26,11 @@ SECRET_KEY = "django-insecure-8&0s^c=n7_#hb5s$syiq@-j^$ac^gp&a+#e@fc+sa)cquzkx26
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "tripplannerbackend-production.up.railway.app",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
