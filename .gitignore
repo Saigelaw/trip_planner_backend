@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.env
+db.sqlite3
+
+# OS-generated files
+.DS_Store
+.vscode/
+
+# IDE files
+.idea/
+.vscode/
+
+# Virtual environments
+venv/
+env/
+
+# Uploaded media and static files
+media/
+static/
+
+# Django-specific
+/static_collected/
+
+# Log files
+*.log
